@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.timer-input-section {
+    margin-bottom: 20px;
+    background-color: #34344A;
+    border-radius: 10px;
+    color: #e9ecef;
+    font-size: 20px;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.timer-input-section input {
+    width: 60px;
+    padding: 5px;
+    margin-right: 10px;
+    text-align: center;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 4px; */
+    border: none;
+    outline: none;
+}
+
+input{
+    background-color: #34344A;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 25px;
+}
+input::placeholder{
+    color: white;
+
+}
+
+#start-timer {
+    padding: 8px 35px;
+    background-color: #F0F757;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#start-timer:hover {
+    background-color: #0056b3;
+    color: wheat;
+}
+
+#timers-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 10px;
+    width: 520px;
+    border-radius: 10px;
+    background-color: #34344A;
+    color: white;
+}
+
+.timer-ended {
+    background-color: #ffc107;
+}
+
+.timer button {
+    padding: 8px 30px;
+    background-color: #F0F757;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.time{
+    font-size: 28px;
+}
+
+.timer button:hover {
+    background-color: #c82333;
+}
+
+h2{
+    background-color: #39393E;
+    color: white;
+    width: 300px;
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.timer-input-section span{
+    margin-right: 21px;
+}
+
+.hidden{
+    display: none;
+}
